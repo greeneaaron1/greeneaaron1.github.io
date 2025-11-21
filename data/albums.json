@@ -7,30 +7,168 @@
     "year": 2024,
     "cover": "assets/images/cover_placeholder.jpg",
     "pieces": [
-      { "title": "Étude Op. 10 No. 1 in C major", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 10 No. 2 in A minor", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 10 No. 3 in E major", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 10 No. 4 in C-sharp minor", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 10 No. 5 in G-flat major", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 10 No. 6 in E-flat minor", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 10 No. 7 in C major", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 10 No. 8 in F major", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 10 No. 9 in F minor", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 10 No. 10 in A-flat major", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 10 No. 11 in E-flat major", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 10 No. 12 in C minor", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 25 No. 1 in A-flat major", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 25 No. 2 in F minor", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 25 No. 3 in F major", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 25 No. 4 in A minor", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 25 No. 5 in E minor", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 25 No. 6 in G-sharp minor", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 25 No. 7 in C-sharp minor", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 25 No. 8 in D-flat major", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 25 No. 9 in G-flat major", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 25 No. 10 in B minor", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 25 No. 11 in A minor", "pdf": "assets/pdfs/placeholder.pdf" },
-      { "title": "Étude Op. 25 No. 12 in C minor", "pdf": "assets/pdfs/placeholder.pdf" }
+      {
+        "title": "Étude Op. 10 No. 1 in C major",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 10 No. 2 in A minor",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 10 No. 3 in E major",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 10 No. 4 in C-sharp minor",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 10 No. 5 in G-flat major",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 10 No. 6 in E-flat minor",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 10 No. 7 in C major",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 10 No. 8 in F major",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 10 No. 9 in F minor",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 10 No. 10 in A-flat major",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 10 No. 11 in E-flat major",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 10 No. 12 in C minor",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 25 No. 1 in A-flat major",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 25 No. 2 in F minor",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 25 No. 3 in F major",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 25 No. 4 in A minor",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 25 No. 5 in E minor",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 25 No. 6 in G-sharp minor",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 25 No. 7 in C-sharp minor",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 25 No. 8 in D-flat major",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 25 No. 9 in G-flat major",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 25 No. 10 in B minor",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 25 No. 11 in A minor",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Étude Op. 25 No. 12 in C minor",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      }
+    ]
+  },
+  {
+    "id": "bach-goldberg-gould-1981",
+    "title": "Bach: Goldberg Variations",
+    "composer": "Johann Sebastian Bach",
+    "performer": "Glenn Gould",
+    "year": 1981,
+    "cover": "assets/images/cover_placeholder.jpg",
+    "pieces": [
+      {
+        "title": "Aria",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Variatio 1 a 1 Clav.",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Variatio 2 a 1 Clav.",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Variatio 3 Canone all'Unisono a 1 Clav.",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      }
+    ]
+  },
+  {
+    "id": "beethoven-sonatas-levit-2019",
+    "title": "Beethoven: Complete Piano Sonatas",
+    "composer": "Ludwig van Beethoven",
+    "performer": "Igor Levit",
+    "year": 2019,
+    "cover": "assets/images/cover_placeholder.jpg",
+    "pieces": [
+      {
+        "title": "Sonata No. 1 in F minor, Op. 2 No. 1",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Sonata No. 8 in C minor, Op. 13 'Pathétique'",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Sonata No. 14 in C-sharp minor, Op. 27 No. 2 'Moonlight'",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      }
+    ]
+  },
+  {
+    "id": "rachmaninoff-concertos-trifonov",
+    "title": "Rachmaninoff: Piano Concertos",
+    "composer": "Sergei Rachmaninoff",
+    "performer": "Daniil Trifonov",
+    "year": 2018,
+    "cover": "assets/images/cover_placeholder.jpg",
+    "pieces": [
+      {
+        "title": "Piano Concerto No. 2 in C minor, Op. 18",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      },
+      {
+        "title": "Piano Concerto No. 3 in D minor, Op. 30",
+        "pdf": "assets/pdfs/placeholder.pdf"
+      }
     ]
   }
 ]
