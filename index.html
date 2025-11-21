@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opus | Classical Sheet Music Library</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Left Sidebar: Album Info -->
+        <aside class="sidebar">
+            <div class="album-details" id="album-details">
+                <!-- Content injected by JS -->
+            </div>
+            
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Search pieces...">
+                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            </div>
+
+            <footer class="sidebar-footer">
+                <p>Opus Library &copy; 2024</p>
+            </footer>
+        </aside>
+
+        <!-- Right Main Content -->
+        <main class="main-content">
+            
+            <!-- View 1: Track List -->
+            <div id="track-list-view" class="view active">
+                <header class="main-header">
+                    <h1>Pieces</h1>
+                    <p class="subtitle" id="album-subtitle">Select a piece to view sheet music</p>
+                </header>
+                <ul class="track-list" id="track-list">
+                    <!-- List items injected by JS -->
+                </ul>
+            </div>
+
+            <!-- View 2: PDF Viewer -->
+            <div id="pdf-viewer-view" class="view hidden">
+                <header class="viewer-header">
+                    <button id="back-button" class="nav-btn back-btn">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"></line><polyline points="12 19 5 12 12 5"></polyline></svg>
+                        Back to List
+                    </button>
+                    <h2 id="current-piece-title">Piece Title</h2>
+                    <div class="viewer-controls">
+                        <button id="prev-piece" class="nav-btn icon-btn" title="Previous Piece">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                        </button>
+                        <button id="next-piece" class="nav-btn icon-btn" title="Next Piece">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                        </button>
+                    </div>
+                </header>
+                <div class="pdf-container">
+                    <iframe id="pdf-frame" src="" type="application/pdf" width="100%" height="100%">
+                        <p>Your browser does not support PDFs. <a href="#" id="pdf-download-link">Download the PDF</a>.</p>
+                    </iframe>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
