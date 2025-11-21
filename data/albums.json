@@ -1,0 +1,36 @@
+[
+  {
+    "id": "chopin-etudes-lim-2024",
+    "title": "Chopin: Études, Op. 10 & 25",
+    "composer": "Frédéric Chopin",
+    "performer": "Yunchan Lim",
+    "year": 2024,
+    "cover": "assets/images/cover_placeholder.jpg",
+    "pieces": [
+      { "title": "Étude Op. 10 No. 1 in C major", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 10 No. 2 in A minor", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 10 No. 3 in E major", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 10 No. 4 in C-sharp minor", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 10 No. 5 in G-flat major", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 10 No. 6 in E-flat minor", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 10 No. 7 in C major", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 10 No. 8 in F major", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 10 No. 9 in F minor", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 10 No. 10 in A-flat major", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 10 No. 11 in E-flat major", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 10 No. 12 in C minor", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 25 No. 1 in A-flat major", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 25 No. 2 in F minor", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 25 No. 3 in F major", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 25 No. 4 in A minor", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 25 No. 5 in E minor", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 25 No. 6 in G-sharp minor", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 25 No. 7 in C-sharp minor", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 25 No. 8 in D-flat major", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 25 No. 9 in G-flat major", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 25 No. 10 in B minor", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 25 No. 11 in A minor", "pdf": "assets/pdfs/placeholder.pdf" },
+      { "title": "Étude Op. 25 No. 12 in C minor", "pdf": "assets/pdfs/placeholder.pdf" }
+    ]
+  }
+]
