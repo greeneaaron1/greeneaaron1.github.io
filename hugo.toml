@@ -1,0 +1,64 @@
+baseURL = 'https://greenaaron1.github.io/'
+languageCode = 'en-us'
+title = 'Your Site Title'
+theme = 'terminal'
+
+# Important: Cache configuration for GitHub Actions
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[pagination]
+  pagerSize = 5
+
+# Required for Chroma syntax highlighting
+[markup.highlight]
+  noClasses = false
+
+[params]
+  # Directory name of your main content
+  contentTypeName = "posts"
+  
+  # Number of menu items to show
+  showMenuItems = 2
+  
+  # Show language selector
+  showLanguageSelector = false
+  
+  # Theme width options
+  fullWidthTheme = false
+  centerTheme = false
+  
+  # Auto cover image from resources
+  autoCover = true
+  
+  # Show last updated date
+  showLastUpdated = false
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Terminal"
+    
+    [languages.en.params]
+      subtitle = "A simple, retro theme for Hugo"
+      owner = ""
+      keywords = ""
+      copyright = ""
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      
+    [languages.en.params.logo]
+      logoText = "Terminal"
+      logoHomeLink = "/"
+    
+    [[languages.en.menu.main]]
+      identifier = "about"
+      name = "About"
+      url = "/about"
+    
+    [[languages.en.menu.main]]
+      identifier = "posts"
+      name = "Posts"
+      url = "/posts"
