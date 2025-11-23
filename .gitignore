@@ -1,0 +1,8 @@
+# Hugo build output
+/public/
+/resources/_gen/
+/.hugo_build.lock
+
+# Local development
+.DS_Store
+thumbs.db
