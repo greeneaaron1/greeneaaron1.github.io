@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div class="music-container">
+    <h1 class="music-title">{{ .Title }}</h1>
+    <div class="music-grid">
+        {{ range .Pages }}
+        <a href="{{ .Permalink }}" class="album-card">
+            <div class="album-cover">
+                <img src="{{ .Params.cover }}" alt="{{ .Title }}">
+            </div>
+            <div class="album-info">
+                <h3 class="album-title">{{ .Title }}</h3>
+                <p class="album-composer">{{ .Params.composer }}</p>
+                <p class="album-details">{{ .Params.performer }} ({{ .Params.year }})</p>
+            </div>
+        </a>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

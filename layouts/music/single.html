@@ -1,0 +1,34 @@
+{{ define "main" }}
+<div class="album-container">
+    <div class="album-header">
+        <div class="album-cover-large">
+            <img src="{{ .Params.cover }}" alt="{{ .Title }}">
+        </div>
+        <div class="album-details-large">
+            <h1>{{ .Title }}</h1>
+            <h2>{{ .Params.composer }}</h2>
+            <p>Performed by: {{ .Params.performer }}</p>
+            <p>Year: {{ .Params.year }}</p>
+        </div>
+    </div>
+
+    <div class="tracklist-section">
+        <h3>Tracklist</h3>
+        <ul class="tracklist">
+            {{ range .Params.tracklist }}
+            <li>{{ . }}</li>
+            {{ end }}
+        </ul>
+    </div>
+
+    <div class="sheet-music-section">
+        <h3>Sheet Music</h3>
+        <div class="pdf-embed">
+            <embed src="{{ .Params.pdf }}" type="application/pdf" width="100%" height="600px" />
+            <p class="pdf-fallback">
+                Unable to view PDF? <a href="{{ .Params.pdf }}">Download it here</a>.
+            </p>
+        </div>
+    </div>
+</div>
+{{ end }}

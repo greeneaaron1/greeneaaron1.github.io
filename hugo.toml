@@ -62,3 +62,8 @@ theme = 'terminal'
       identifier = "posts"
       name = "Posts"
       url = "/posts"
+
+    [[languages.en.menu.main]]
+      identifier = "music"
+      name = "Music"
+      url = "/music"
