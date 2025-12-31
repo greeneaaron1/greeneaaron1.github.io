@@ -1,7 +1,6 @@
 baseURL = 'https://greenaaron1.github.io/'
 languageCode = 'en-us'
 title = 'Your Site Title'
-theme = 'terminal'
 
 # Important: Cache configuration for GitHub Actions
 [caches]
