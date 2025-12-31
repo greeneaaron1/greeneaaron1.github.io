@@ -1,71 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
   
-    <title>My First Post :: Terminal</title>
+    <title>Git workflows for beginners :: Your Site Title</title>
   
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Welcome to My Site This is my first post using the Terminal theme for Hugo!
-Visit my GitHub for more projects.
+<meta name="description" content="This is the guide I always wanted while learning how to code and use git &ndash; I&rsquo;ll make changes and add to it as I learn more. Hope you find it useful too!
+Typical flow (for 90% of cases) git clone # get repo (first time) OR (if you already cloned it) git pull origin main # update local main git checkout -b new-branch # create branch [make edits] git diff # (optional) see what you changed git status # (optional) see what’s staged vs not git add . # stage changes git commit -m “message” # snapshot commit git push origin new-branch # push branch [create PR on GitHub] after merging the PR: git checkout main git pull origin main git branch -D old-branch # delete local branch Quick checks Use these when you’re unsure what’s going on.
 " />
 <meta name="keywords" content="" />
 
   <meta name="robots" content="noodp" />
 
-<link rel="canonical" href="http://localhost:1313/posts/my-first-post/" />
+<link rel="canonical" href="https://greenaaron1.github.io/posts/my-first-post/" />
 
 
 
 
 
   
-  <link rel="stylesheet" href="http://localhost:1313/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+  <link rel="stylesheet" href="https://greenaaron1.github.io/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
 
   
-  <link rel="stylesheet" href="http://localhost:1313/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+  <link rel="stylesheet" href="https://greenaaron1.github.io/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
 
   
-  <link rel="stylesheet" href="http://localhost:1313/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+  <link rel="stylesheet" href="https://greenaaron1.github.io/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
 
   
-  <link rel="stylesheet" href="http://localhost:1313/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+  <link rel="stylesheet" href="https://greenaaron1.github.io/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
 
   
-  <link rel="stylesheet" href="http://localhost:1313/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+  <link rel="stylesheet" href="https://greenaaron1.github.io/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
 
   
-  <link rel="stylesheet" href="http://localhost:1313/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+  <link rel="stylesheet" href="https://greenaaron1.github.io/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
 
   
-  <link rel="stylesheet" href="http://localhost:1313/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+  <link rel="stylesheet" href="https://greenaaron1.github.io/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
 
   
-  <link rel="stylesheet" href="http://localhost:1313/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+  <link rel="stylesheet" href="https://greenaaron1.github.io/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
 
   
-  <link rel="stylesheet" href="http://localhost:1313/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+  <link rel="stylesheet" href="https://greenaaron1.github.io/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
 
   
-  <link rel="stylesheet" href="http://localhost:1313/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+  <link rel="stylesheet" href="https://greenaaron1.github.io/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
 
   
-  <link rel="stylesheet" href="http://localhost:1313/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+  <link rel="stylesheet" href="https://greenaaron1.github.io/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
 
   
-  <link rel="stylesheet" href="http://localhost:1313/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+  <link rel="stylesheet" href="https://greenaaron1.github.io/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
 
   
-  <link rel="stylesheet" href="http://localhost:1313/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+  <link rel="stylesheet" href="https://greenaaron1.github.io/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
 
 
 
 
-<link rel="stylesheet" href="http://localhost:1313/style.css">
+<link rel="stylesheet" href="https://greenaaron1.github.io/style.css">
 
 
-<link rel="shortcut icon" href="http://localhost:1313/favicon.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="shortcut icon" href="https://greenaaron1.github.io/favicon.png">
+<link rel="apple-touch-icon" href="https://greenaaron1.github.io/apple-touch-icon.png">
 
 
 <meta name="twitter:card" content="summary" />
@@ -74,20 +74,20 @@ Visit my GitHub for more projects.
 
 <meta property="og:locale" content="en" />
 <meta property="og:type" content="article" />
-<meta property="og:title" content="My First Post">
-<meta property="og:description" content="Welcome to My Site This is my first post using the Terminal theme for Hugo!
-Visit my GitHub for more projects.
+<meta property="og:title" content="Git workflows for beginners">
+<meta property="og:description" content="This is the guide I always wanted while learning how to code and use git &ndash; I&rsquo;ll make changes and add to it as I learn more. Hope you find it useful too!
+Typical flow (for 90% of cases) git clone # get repo (first time) OR (if you already cloned it) git pull origin main # update local main git checkout -b new-branch # create branch [make edits] git diff # (optional) see what you changed git status # (optional) see what’s staged vs not git add . # stage changes git commit -m “message” # snapshot commit git push origin new-branch # push branch [create PR on GitHub] after merging the PR: git checkout main git pull origin main git branch -D old-branch # delete local branch Quick checks Use these when you’re unsure what’s going on.
 " />
-<meta property="og:url" content="http://localhost:1313/posts/my-first-post/" />
-<meta property="og:site_name" content="Terminal" />
+<meta property="og:url" content="https://greenaaron1.github.io/posts/my-first-post/" />
+<meta property="og:site_name" content="Your Site Title" />
 
-  <meta property="og:image" content="http://localhost:1313/og-image.png">
+  <meta property="og:image" content="https://greenaaron1.github.io/og-image.png">
 
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="627">
 
 
-  <meta property="article:published_time" content="2025-11-23 10:00:00 -0500 EST" />
+  <meta property="article:published_time" content="2025-12-23 10:00:00 -0500 EST" />
 
 
 
@@ -108,14 +108,6 @@ Visit my GitHub for more projects.
 
   <header class="header">
   <div class="header__inner">
-    <div class="header__logo">
-      <a href="/">
-  <div class="logo">
-    Terminal
-  </div>
-</a>
-
-    </div>
     
       <ul class="menu menu--mobile">
   <li class="menu__trigger">Menu&nbsp;▾</li>
@@ -155,21 +147,9 @@ Visit my GitHub for more projects.
           <li><a href="/music" >Music</a></li>
         
       
-      
-        <li>
-          <ul class="menu">
-            <li class="menu__trigger">Show more&nbsp;▾</li>
-            <li>
-              <ul class="menu__dropdown">
-                
-                  
-                    <li><a href="/posts" >Posts</a></li>
-                  
-                
-              </ul>
-            </li>
-          </ul>
-        </li>
+        
+          <li><a href="/posts" >Posts</a></li>
+        
       
     
   </ul>
@@ -183,9 +163,9 @@ Visit my GitHub for more projects.
     
 <article class="post">
   <h1 class="post-title">
-    <a href="http://localhost:1313/posts/my-first-post/">My First Post</a>
+    <a href="https://greenaaron1.github.io/posts/my-first-post/">Git workflows for beginners</a>
   </h1>
-  <div class="post-meta"><time class="post-date">2025-11-23</time></div>
+  <div class="post-meta"><time class="post-date">2025-12-23</time></div>
 
   
   
@@ -194,9 +174,89 @@ Visit my GitHub for more projects.
   
 
   <div class="post-content"><div>
-        <h2 id="welcome-to-my-site">Welcome to My Site<a href="#welcome-to-my-site" class="hanchor" ariaLabel="Anchor">#</a> </h2>
-<p>This is my first post using the <strong>Terminal theme</strong> for Hugo!</p>
-<p>Visit my <a href="https://github.com/greenaaron1">GitHub</a> for more projects.</p>
+        <p>This is the guide I always wanted while learning how to code and use git &ndash; I&rsquo;ll make changes and add to it as I learn more. Hope you find it useful too!</p>
+<h2 id="typical-flow-for-90-of-cases">Typical flow (for 90% of cases)<a href="#typical-flow-for-90-of-cases" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<pre tabindex="0"><code>git clone                   # get repo (first time)
+
+OR (if you already cloned it)
+
+git pull origin main                  # update local main
+
+git checkout -b new-branch            # create branch
+
+[make edits]
+
+git diff                              # (optional) see what you changed
+git status                            # (optional) see what’s staged vs not
+
+git add .                             # stage changes
+git commit -m “message”               # snapshot commit
+git push origin new-branch            # push branch
+
+[create PR on GitHub]
+
+after merging the PR:
+
+git checkout main
+git pull origin main
+
+git branch -D old-branch              # delete local branch
+</code></pre><h2 id="quick-checks">Quick checks<a href="#quick-checks" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Use these when you’re unsure what’s going on.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git status
+</span></span></code></pre></div><p>Shows:</p>
+<ul>
+<li>what branch you’re on</li>
+<li>what’s modified / staged / untracked</li>
+</ul>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git diff
+</span></span></code></pre></div><p>Shows exactly what changed.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git diff --staged
+</span></span></code></pre></div><p>Shows what will be committed.</p>
+<h2 id="staging-and-undoing-changes">Staging and undoing changes<a href="#staging-and-undoing-changes" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Stage everything in the current directory:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git add .
+</span></span></code></pre></div><p>Unstage a file (keeps your edits):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git restore --staged path/to/file
+</span></span></code></pre></div><p>Throw away your local edits to that file (restore last committed version):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git restore path/to/file
+</span></span></code></pre></div><p>BTW, run <code>git diff</code> first so you see what you’re about to lose.</p>
+<h2 id="git-stash-great-way-to-shelve-your-current-changes">Git Stash: great way to shelve your current changes<a href="#git-stash-great-way-to-shelve-your-current-changes" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Use it when you need to switch branches but you’re not ready to commit.</p>
+<p>Main stash workflow (if you made local changes and want to pause them):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git status
+</span></span><span class="line"><span class="cl">git stash -u            <span class="c1"># stashes tracked edits + untracked new files</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">git checkout other-branch
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">do</span> whatever you needed on the other branch…
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">git checkout new-branch
+</span></span><span class="line"><span class="cl">git stash pop           <span class="c1"># reapply the stash and remove it from the stash list</span>
+</span></span></code></pre></div><p>Pulling main safely when you have local changes (stash &gt; rebase pull &gt; unstash):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git status
+</span></span><span class="line"><span class="cl">git stash push -u -m <span class="s2">&#34;WIP before pulling main&#34;</span>
+</span></span><span class="line"><span class="cl">git pull --rebase origin main
+</span></span><span class="line"><span class="cl">git stash pop
+</span></span></code></pre></div><p>Helpful stash commands (only the essentials):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git stash list
+</span></span><span class="line"><span class="cl">git stash apply         <span class="c1"># apply stash but keep it in the list</span>
+</span></span><span class="line"><span class="cl">git stash drop          <span class="c1"># drop a stash you no longer need</span>
+</span></span></code></pre></div><h2 id="quick-fixes-common-situations">Quick fixes (common situations)<a href="#quick-fixes-common-situations" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>I staged too much:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git restore --staged .
+</span></span></code></pre></div><p>I need to abandon all my local edits in one go (discards everything not committed):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git restore .
+</span></span></code></pre></div><p>I need to undo a commit that already exists on the remote (safe for shared branches):</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git log --oneline
+</span></span><span class="line"><span class="cl">git revert &lt;commit-sha&gt;
+</span></span><span class="line"><span class="cl">git push
+</span></span></code></pre></div><h2 id="references">References<a href="#references" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li><a href="https://nicholaschen.me/blogs/git">Nicholas Chen&rsquo;s Git Guide</a></li>
+<li><a href="https://dangitgit.com/">Dangit, Git!</a></li>
+<li><a href="https://github.com/zgreathouse">Zach Greathouse</a></li>
+</ul>
 
       </div></div>
 
@@ -214,16 +274,7 @@ Visit my GitHub for more projects.
   </div>
 
   
-    <footer class="footer">
-  <div class="footer__inner">
     
-      <div class="copyright">
-        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
-    
-      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
-      </div>
-  </div>
-</footer>
 
 
 

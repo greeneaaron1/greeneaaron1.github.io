@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Terminal</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Terminal</description>
+    <title>Your Site Title</title>
+    <link>https://greenaaron1.github.io/</link>
+    <description>Recent content on Your Site Title</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 23 Nov 2025 10:00:00 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 23 Dec 2025 10:00:00 -0500</lastBuildDate>
+    <atom:link href="https://greenaaron1.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
-      <pubDate>Sun, 23 Nov 2025 10:00:00 -0500</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;h2 id=&#34;welcome-to-my-site&#34;&gt;Welcome to My Site&lt;/h2&gt;&#xA;&lt;p&gt;This is my first post using the &lt;strong&gt;Terminal theme&lt;/strong&gt; for Hugo!&lt;/p&gt;&#xA;&lt;p&gt;Visit my &lt;a href=&#34;https://github.com/greenaaron1&#34;&gt;GitHub&lt;/a&gt; for more projects.&lt;/p&gt;</description>
+      <title>Git workflows for beginners</title>
+      <link>https://greenaaron1.github.io/posts/my-first-post/</link>
+      <pubDate>Tue, 23 Dec 2025 10:00:00 -0500</pubDate>
+      <guid>https://greenaaron1.github.io/posts/my-first-post/</guid>
+      <description>&lt;p&gt;This is the guide I always wanted while learning how to code and use git &amp;ndash; I&amp;rsquo;ll make changes and add to it as I learn more. Hope you find it useful too!&lt;/p&gt;&#xA;&lt;h2 id=&#34;typical-flow-for-90-of-cases&#34;&gt;Typical flow (for 90% of cases)&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone                   # get repo (first time)&#xA;&#xA;OR (if you already cloned it)&#xA;&#xA;git pull origin main                  # update local main&#xA;&#xA;git checkout -b new-branch            # create branch&#xA;&#xA;[make edits]&#xA;&#xA;git diff                              # (optional) see what you changed&#xA;git status                            # (optional) see what’s staged vs not&#xA;&#xA;git add .                             # stage changes&#xA;git commit -m “message”               # snapshot commit&#xA;git push origin new-branch            # push branch&#xA;&#xA;[create PR on GitHub]&#xA;&#xA;after merging the PR:&#xA;&#xA;git checkout main&#xA;git pull origin main&#xA;&#xA;git branch -D old-branch              # delete local branch&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;quick-checks&#34;&gt;Quick checks&lt;/h2&gt;&#xA;&lt;p&gt;Use these when you’re unsure what’s going on.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Symphony No. 5</title>
-      <link>http://localhost:1313/music/album1/</link>
+      <link>https://greenaaron1.github.io/music/album1/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/music/album1/</guid>
+      <guid>https://greenaaron1.github.io/music/album1/</guid>
       <description></description>
     </item>
     <item>
       <title>The Four Seasons</title>
-      <link>http://localhost:1313/music/album2/</link>
+      <link>https://greenaaron1.github.io/music/album2/</link>
       <pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/music/album2/</guid>
+      <guid>https://greenaaron1.github.io/music/album2/</guid>
       <description></description>
     </item>
     <item>
       <title>Nocturnes</title>
-      <link>http://localhost:1313/music/album3/</link>
+      <link>https://greenaaron1.github.io/music/album3/</link>
       <pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/music/album3/</guid>
+      <guid>https://greenaaron1.github.io/music/album3/</guid>
       <description></description>
     </item>
   </channel>
