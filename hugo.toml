@@ -53,13 +53,16 @@ title = 'Your Site Title'
       identifier = "about"
       name = "About"
       url = "/about"
+      weight = 1
     
     [[languages.en.menu.main]]
       identifier = "posts"
       name = "Posts"
       url = "/posts"
+      weight = 2
 
     [[languages.en.menu.main]]
       identifier = "music"
       name = "Music"
       url = "/music"
+      weight = 3

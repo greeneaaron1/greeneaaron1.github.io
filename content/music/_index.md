@@ -1,4 +1,5 @@
----
-title: "Music"
-description: "A collection of some of my favorite music and performances."
----
++++
+title = "Music"
++++
+
+A collection of some of my favorite music and performances!
