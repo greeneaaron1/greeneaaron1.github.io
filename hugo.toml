@@ -19,9 +19,6 @@ theme = 'terminal'
   # Directory name of your main content
   contentTypeName = "posts"
   
-  # Number of menu items to show
-  showMenuItems = 2
-  
   # Show language selector
   showLanguageSelector = false
   
@@ -38,10 +35,10 @@ theme = 'terminal'
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
+    title = "Your Site Title"
     
     [languages.en.params]
-      subtitle = "A simple, retro theme for Hugo"
+      subtitle = "Simple notes and updates"
       owner = ""
       keywords = ""
       copyright = ""
@@ -50,7 +47,7 @@ theme = 'terminal'
       readOtherPosts = "Read other posts"
       
     [languages.en.params.logo]
-      logoText = "Terminal"
+      logoText = "Site"
       logoHomeLink = "/"
     
     [[languages.en.menu.main]]
