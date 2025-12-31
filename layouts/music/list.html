@@ -1,6 +1,9 @@
 {{ define "main" }}
 <div class="music-container">
     <h1 class="music-title">{{ .Title }}</h1>
+    {{ with .Description }}
+    <p class="music-intro">{{ . }}</p>
+    {{ end }}
     <div class="music-grid">
         {{ range .Pages }}
         <a href="{{ .Permalink }}" class="album-card">

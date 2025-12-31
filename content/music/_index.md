@@ -1,4 +1,4 @@
 ---
 title: "Music"
-description: "A collection of my favorite classical music albums."
+description: "A collection of some of my favorite music and performances."
 ---
