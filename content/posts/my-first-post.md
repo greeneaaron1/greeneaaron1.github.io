@@ -8,4 +8,4 @@ draft = false
 
 This is my first post using the **Terminal theme** for Hugo!
 
-Visit my [GitHub](https://github.com/greenaaron1) for more projects.
+Visit my [GitHub](https://github.com/greeneaaron1) for more projects.
