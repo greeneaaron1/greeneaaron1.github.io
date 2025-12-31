@@ -55,11 +55,11 @@ title = 'Your Site Title'
       url = "/about"
     
     [[languages.en.menu.main]]
-      identifier = "music"
-      name = "Music"
-      url = "/music"
-
-    [[languages.en.menu.main]]
       identifier = "posts"
       name = "Posts"
       url = "/posts"
+
+    [[languages.en.menu.main]]
+      identifier = "music"
+      name = "Music"
+      url = "/music"

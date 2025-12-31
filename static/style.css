@@ -6,12 +6,6 @@
   padding: 20px;
 }
 
-.music-title {
-  text-align: center;
-  margin-bottom: 40px;
-  color: var(--foreground);
-}
-
 .music-intro {
   max-width: 720px;
   margin: -20px auto 40px;

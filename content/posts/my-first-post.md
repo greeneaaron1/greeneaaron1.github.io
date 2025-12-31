@@ -4,7 +4,7 @@ date = 2025-12-23T10:00:00-05:00
 draft = false
 +++
 
-This is the guide I always wanted while learning how to code and use git -- I'll make changes and add to it as I learn more. Hope you find it useful too!
+This is the guide I always wanted while learning how to code and use git. Hope you find it useful too!
 
 ## Typical flow (for 90% of cases)
 
@@ -84,9 +84,7 @@ BTW, run `git diff` first so you see what you’re about to lose.
 
 ## Git Stash: great way to shelve your current changes
 
-Use it when you need to switch branches but you’re not ready to commit.
-
-Main stash workflow (if you made local changes and want to pause them):
+If you made local changes and want to pause them:
 
 ```bash
 git status
