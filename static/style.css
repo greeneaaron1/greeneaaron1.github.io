@@ -1,14 +1,8 @@
 /* Music Section Styles */
 
-.music-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
 .music-intro {
   max-width: 720px;
-  margin: -20px auto 40px;
+  margin: 25px auto 40px;
   text-align: center;
   color: color-mix(in srgb, var(--foreground) 75%, transparent);
 }

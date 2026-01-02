@@ -2,7 +2,7 @@
 title = "About"
 +++
 
-Hi, I'm Aaron Greene! I love learning about developer tools and consumer products. Other interests include reading, PC gaming, music, basketball, and Chinese food.
+Hi! I'm Aaron. I love learning about developer tools and consumer products. Other interests include reading, PC gaming, basketball, and playing piano.
 
 I studied [Economics at Stanford](https://economics.stanford.edu/) and currently work at [Hume AI](https://www.hume.ai/).
 

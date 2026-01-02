@@ -4,7 +4,7 @@ date = 2025-12-23T10:00:00-05:00
 draft = false
 +++
 
-This is the guide I always wanted while learning how to code and use git. Hope you find it useful too!
+This is a guide I made while learning how to code and use git. Hope you find it useful too!
 
 ## Typical flow (for 90% of cases)
 

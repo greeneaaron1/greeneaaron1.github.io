@@ -1,24 +1,42 @@
 {{ define "main" }}
-<div class="music-container">
+<article class="post">
     <h1 class="post-title">
         <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
     </h1>
-    {{ with .Description }}
-    <p class="music-intro">{{ . }}</p>
-    {{ end }}
-    <div class="music-grid">
-        {{ range .Pages }}
-        <a href="{{ .Permalink }}" class="album-card">
-            <div class="album-cover">
-                <img src="{{ .Params.cover }}" alt="{{ .Title }}">
-            </div>
-            <div class="album-info">
-                <h3 class="album-title">{{ .Title }}</h3>
-                <p class="album-composer">{{ .Params.composer }}</p>
-                <p class="album-details">{{ .Params.performer }} ({{ .Params.year }})</p>
-            </div>
-        </a>
-        {{ end }}
+    <div class="post-meta">
+        {{- if .Date -}}
+        <time class="post-date">
+            {{- partial "post-date" . -}}
+            {{- if and $.Site.Params.showLastUpdated .Lastmod -}}
+            &nbsp;{{- partial "post-lastmod" . -}}
+            {{- end -}}
+        </time>
+        {{- end -}}
+        {{- with .Params.Author -}}
+        <span class="post-author">{{ . }}</span>
+        {{- end -}}
+        {{- if and (.Param "readingTime") (eq (.Param "readingTime") true) -}}
+        <span class="post-reading-time">{{ .ReadingTime }} {{ $.Site.Params.minuteReadingTime | default "min read" }} ({{ .WordCount }} {{ $.Site.Params.words | default "words" }})</span>
+        {{- end -}}
     </div>
-</div>
+    <div class="post-content">
+        {{ with .Description }}
+        <p class="music-intro">{{ . }}</p>
+        {{ end }}
+        <div class="music-grid">
+            {{ range .Pages }}
+            <a href="{{ .Permalink }}" class="album-card">
+                <div class="album-cover">
+                    <img src="{{ .Params.cover }}" alt="{{ .Title }}">
+                </div>
+                <div class="album-info">
+                    <h3 class="album-title">{{ .Title }}</h3>
+                    <p class="album-composer">{{ .Params.composer }}</p>
+                    <p class="album-details">{{ .Params.performer }} ({{ .Params.year }})</p>
+                </div>
+            </a>
+            {{ end }}
+        </div>
+    </div>
+</article>
 {{ end }}
