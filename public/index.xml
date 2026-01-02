@@ -16,7 +16,7 @@
       <description>&lt;p&gt;This is a guide I made while learning how to code and use git. Hope you find it useful too!&lt;/p&gt;&#xA;&lt;h2 id=&#34;typical-flow-for-90-of-cases&#34;&gt;Typical flow (for 90% of cases)&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git clone                   # get repo (first time)&#xA;&#xA;OR (if you already cloned it)&#xA;&#xA;git pull origin main                  # update local main&#xA;&#xA;git checkout -b new-branch            # create branch&#xA;&#xA;[make edits]&#xA;&#xA;git diff                              # (optional) see what you changed&#xA;git status                            # (optional) see what’s staged vs not&#xA;&#xA;git add .                             # stage changes&#xA;git commit -m “message”               # snapshot commit&#xA;git push origin new-branch            # push branch&#xA;&#xA;[create PR on GitHub]&#xA;&#xA;after merging the PR:&#xA;&#xA;git checkout main&#xA;git pull origin main&#xA;&#xA;git branch -D old-branch              # delete local branch&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h2 id=&#34;quick-checks&#34;&gt;Quick checks&lt;/h2&gt;&#xA;&lt;p&gt;Use these when you’re unsure what’s going on.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Symphony No. 5</title>
+      <title>Chopin: Etudes, Op. 10 &amp; 25</title>
       <link>http://localhost:1313/music/album1/</link>
       <pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/music/album1/</guid>
@@ -37,11 +37,32 @@
       <description></description>
     </item>
     <item>
+      <title>Placeholder Album 4</title>
+      <link>http://localhost:1313/music/album4/</link>
+      <pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/music/album4/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Placeholder Album 5</title>
+      <link>http://localhost:1313/music/album5/</link>
+      <pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/music/album5/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Placeholder Album 6</title>
+      <link>http://localhost:1313/music/album6/</link>
+      <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/music/album6/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>About</title>
       <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/about/</guid>
-      <description>&lt;p&gt;Hi! I&amp;rsquo;m Aaron. I love learning about developer tools and consumer products. Other interests include reading, PC gaming, basketball, and playing piano.&lt;/p&gt;&#xA;&lt;p&gt;I studied &lt;a href=&#34;https://economics.stanford.edu/&#34;&gt;Economics at Stanford&lt;/a&gt; and currently work at &lt;a href=&#34;https://www.hume.ai/&#34;&gt;Hume AI&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;You can reach me via:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/aaron-greene-764459173/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/greeneaaron1&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <description>&lt;p&gt;Hi! I&amp;rsquo;m Aaron. I love learning about developer tools and consumer products. Other interests include reading, PC gaming, basketball, and playing piano.&lt;/p&gt;&#xA;&lt;p&gt;I studied economics at Stanford and currently work at &lt;a href=&#34;https://www.hume.ai/&#34;&gt;Hume AI&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;You can reach me via:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/aaron-greene-764459173/&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://github.com/greeneaaron1&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
   </channel>
 </rss>

@@ -59,6 +59,24 @@
   color: #888;
 }
 
+.links-section {
+  margin-top: 30px;
+}
+
+.album-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.album-links li {
+  margin-bottom: 8px;
+}
+
+.album-links a {
+  text-decoration: underline;
+}
+
 /* Responsive Grid */
 @media (max-width: 900px) {
   .music-grid {

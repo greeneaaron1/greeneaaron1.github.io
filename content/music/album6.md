@@ -1,9 +1,9 @@
 ---
-title: "Nocturnes"
-date: 2023-10-25
+title: "Placeholder Album 6"
+date: 2023-10-22
 draft: false
-artist: "Arthur Rubinstein"
-year: "1830"
+artist: "TBD Artist"
+year: "2025"
 links:
   - label: "Performance video"
     url: "#"
