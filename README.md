@@ -1,3 +1,3 @@
 # greeneaaron1.github.io
 
-Test project for storing some data
+Personal website test (using Hugo + Github Pages)
