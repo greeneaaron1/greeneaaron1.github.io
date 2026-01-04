@@ -1,10 +1,10 @@
 ---
-title: "Chopin Competition 2025"
+title: "Chopin Competition Highlights"
 date: 2023-10-23
 draft: false
 artist: "Tianyao Lyu"
 year: "2025"
-cover: "/images/music/album5.jpg"
+cover: "/images/music/album5-v2.jpg"
 links:
   - label: "Performance video"
     url: "https://www.youtube.com/watch?v=UZTX3ibu_TI"

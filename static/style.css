@@ -14,7 +14,8 @@
 }
 
 .album-card {
-  display: block;
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
   color: inherit;
   border: 1px solid #333;
@@ -47,6 +48,12 @@
   font-weight: bold;
 }
 
+.album-info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
 .album-composer {
   margin: 0 0 5px;
   font-style: italic;
@@ -54,7 +61,7 @@
 }
 
 .album-details {
-  margin: 0;
+  margin: auto 0 0;
   font-size: 0.9em;
   color: #888;
 }
