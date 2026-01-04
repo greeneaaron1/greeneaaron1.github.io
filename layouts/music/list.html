@@ -26,6 +26,10 @@
         <div class="music-grid">
             {{ range .Pages }}
             <a href="{{ .Permalink }}" class="album-card">
+                {{ $cover := .Params.cover | default "/images/album-placeholder.jpg" }}
+                <div class="album-cover">
+                    <img src="{{ $cover | relURL }}" alt="Album cover for {{ .Title }}">
+                </div>
                 <div class="album-info">
                     <h3 class="album-title">{{ .Title }}</h3>
                     <p class="album-details">{{ .Params.artist }} ({{ .Params.year }})</p>

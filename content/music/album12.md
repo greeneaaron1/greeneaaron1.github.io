@@ -1,10 +1,10 @@
 ---
-title: "Placeholder Album 4"
-date: 2023-10-24
+title: "Placeholder Album 12"
+date: 2023-10-16
 draft: false
 artist: "TBD Artist"
 year: "2025"
-cover: "/images/music/album4.jpg"
+cover: "/images/music/album12.jpg"
 links:
   - label: "Performance video"
     url: "#"

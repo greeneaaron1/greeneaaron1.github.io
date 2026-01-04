@@ -1,6 +1,10 @@
 {{ define "main" }}
 <div class="album-container">
     <div class="album-header">
+        {{ $cover := .Params.cover | default "/images/album-placeholder.jpg" }}
+        <div class="album-cover-large">
+            <img src="{{ $cover | relURL }}" alt="Album cover for {{ .Title }}">
+        </div>
         <div class="album-details-large">
             <h1>{{ .Title }}</h1>
             <p class="album-details">{{ .Params.artist }} ({{ .Params.year }})</p>
@@ -14,6 +18,10 @@
             <li><a href="{{ .url }}">{{ .label }}</a></li>
             {{ end }}
         </ul>
+    </div>
+    <div class="notes-section">
+        <h3>Notes</h3>
+        <p class="album-notes">Placeholder notes about the album go here. Replace this with commentary and listening notes.</p>
     </div>
 </div>
 {{ end }}
