@@ -12,5 +12,5 @@ links:
     url: "https://open.spotify.com/album/78uSUydG2FbcVDDFWGMQjT"
   - label: "Apple Music"
     url: "https://music.apple.com/us/album/the-dune-sketchbook-music-from-the-soundtrack/1580377303"
-notes: "I never really stopped listening to the Dune soundtrack. This is a cool album because it's very atmospheric -- feels like you're on Caladan or Arrakkis."
+notes: "I never stopped listening to the Dune soundtrack. This is a very atmospheric album -- feels like you're on Caladan or Arrakkis."
 ---

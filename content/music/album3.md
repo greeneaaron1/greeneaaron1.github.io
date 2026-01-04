@@ -12,5 +12,5 @@ links:
     url: "https://open.spotify.com/album/0EdtTRCl3J22AnWrNpH1w9"
   - label: "Apple Music"
     url: "https://music.apple.com/us/album/isles/1531704818"
-notes: "I found Bicep through watching the HBO show Industry. This album (especially the track Apricots) is a great vibe."
+notes: "This album (especially the track Apricots) is a great vibe. I found Bicep through the HBO show Industry and they're both awesome."
 ---

@@ -14,5 +14,5 @@ links:
     url: "https://open.spotify.com/album/4wMFFOHC0cPGKtsZmKByI3"
   - label: "Apple Music"
     url: "https://music.apple.com/us/album/ysa%C3%BFe-sonatas-for-solo-violin/1562851848"
-notes: "Unbelievable playing on six of the hardest violin pieces ever written. Sonata No. 6 is my favorite recording."
+notes: "Superhuman violin playing. Sonata No. 6 is my favorite recording."
 ---

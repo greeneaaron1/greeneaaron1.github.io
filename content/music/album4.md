@@ -12,5 +12,5 @@ links:
     url: "https://open.spotify.com/album/5SGG7graQOU3OnK3cZZCNd"
   - label: "Apple Music"
     url: "https://music.apple.com/us/album/nickel-creek/1532331654"
-notes: "I've been listening to this album constantly, namely the song Out of the Woods, for more than 4 years now."
+notes: "I've been listening to the song Out Of The Woods on repeat for many years now."
 ---

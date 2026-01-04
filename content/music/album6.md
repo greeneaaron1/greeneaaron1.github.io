@@ -12,5 +12,5 @@ links:
     url: "https://open.spotify.com/album/76G4y9scE4b5Bnoxrbquuu"
   - label: "Apple Music"
     url: "https://music.apple.com/us/album/modern-solo/1452598219"
-notes: "This is some crazy good and confident violin playing. My favorite recordings are the Ysaye Ballade and Ernst Last Rose of Summer."
+notes: "This is some very good and confident violin playing. My favorite recordings are the Ysaye Ballade and Ernst Last Rose of Summer."
 ---

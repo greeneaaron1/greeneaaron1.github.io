@@ -14,5 +14,5 @@ links:
     url: "https://open.spotify.com/album/65tTkPhfEt17nOy0nxSc3S"
   - label: "Apple Music"
     url: "https://classical.music.apple.com/us/album/1731383228"
-notes: "This album made me a fun of the Chopin Etudes, even the less played ones. My favorite recordings are Etudes 1, 5, and 8 from Op. 10; and Etudes 1, 9, and 12 from Op. 25."
+notes: "This album made me a fan of the Chopin Etudes, even the less played ones. My favorite recordings are Etudes 1, 5, and 8 from Op. 10; and Etudes 1, 9, and 12 from Op. 25."
 ---

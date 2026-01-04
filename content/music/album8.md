@@ -12,5 +12,5 @@ links:
     url: "https://open.spotify.com/album/3ElFgs0bsIVWEB2Twm84EP"
   - label: "Apple Music"
     url: "https://music.apple.com/ca/album/debussy/1452313974"
-notes: "Feels like a perfect Debussy album! My favorite tracks are the Children's Corner No. 1 and the Suite Bergamasque Mvt. 1."
+notes: "A perfect Debussy album! My favorite tracks are Children's Corner No. 1 and the Suite Bergamasque Mvt. 1."
 ---

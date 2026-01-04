@@ -12,5 +12,5 @@ links:
     url: "https://open.spotify.com/album/1TZ16QfCsARON0efp6mGga"
   - label: "Apple Music"
     url: "https://music.apple.com/us/album/linger-awhile/1637144888"
-notes: "It's really good. Favorite tracks are Can't Get Out of This Mood and Guess Who I Saw Today."
+notes: "My favorite tracks are Can't Get Out of This Mood and Guess Who I Saw Today."
 ---
