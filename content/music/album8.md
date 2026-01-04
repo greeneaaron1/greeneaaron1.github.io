@@ -1,17 +1,16 @@
 ---
-title: "Placeholder Album 8"
+title: "Debussy"
 date: 2023-10-20
 draft: false
-artist: "TBD Artist"
-year: "2025"
+artist: "Seong-Jin Cho"
+year: "2017"
 cover: "/images/music/album8.jpg"
 links:
-  - label: "Performance video"
-    url: "#"
   - label: "YouTube"
-    url: "#"
+    url: "https://music.youtube.com/playlist?list=OLAK5uy_moN5zgGJuo2UOrzlw-WxmqEi4dqiw6Zwc&si=xFIpgP3ocDYiqT-O"
   - label: "Spotify"
-    url: "#"
+    url: "https://open.spotify.com/album/3ElFgs0bsIVWEB2Twm84EP"
   - label: "Apple Music"
-    url: "#"
+    url: "https://music.apple.com/ca/album/debussy/1452313974"
+notes: "Feels like a perfect Debussy album! My favorite tracks are the Children's Corner No. 1 and the Suite Bergamasque Mvt. 1."
 ---

@@ -1,17 +1,16 @@
 ---
-title: "The Four Seasons"
+title: "Linger Awhile"
 date: 2023-10-26
 draft: false
-artist: "I Musici"
-year: "1723"
+artist: "Samara Joy"
+year: "2022"
 cover: "/images/music/album2.jpg"
 links:
-  - label: "Performance video"
-    url: "#"
   - label: "YouTube"
-    url: "#"
+    url: "https://music.youtube.com/playlist?list=OLAK5uy_l_5RYyLVevtUTkIHA6AhNiZhpNKHMRnQQ&si=K2iZR7QR5hnAIzaP"
   - label: "Spotify"
-    url: "#"
+    url: "https://open.spotify.com/album/1TZ16QfCsARON0efp6mGga"
   - label: "Apple Music"
-    url: "#"
+    url: "https://music.apple.com/us/album/linger-awhile/1637144888"
+notes: "It's really good. Favorite tracks are Can't Get Out of This Mood and Guess Who I Saw Today."
 ---

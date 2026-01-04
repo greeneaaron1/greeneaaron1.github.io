@@ -1,17 +1,16 @@
 ---
-title: "Placeholder Album 4"
+title: "Nickel Creek"
 date: 2023-10-24
 draft: false
-artist: "TBD Artist"
-year: "2025"
+artist: "Nickel Creek"
+year: "2000"
 cover: "/images/music/album4.jpg"
 links:
-  - label: "Performance video"
-    url: "#"
   - label: "YouTube"
-    url: "#"
+    url: "https://music.youtube.com/playlist?list=OLAK5uy_nCxwpdPhk_Zy9nv_WjKB4bnEExE5ToDjI&si=0cOEomniwRD30KJD"
   - label: "Spotify"
-    url: "#"
+    url: "https://open.spotify.com/album/5SGG7graQOU3OnK3cZZCNd"
   - label: "Apple Music"
-    url: "#"
+    url: "https://music.apple.com/us/album/nickel-creek/1532331654"
+notes: "I've been listening to this album constantly, namely the song Out of the Woods, for more than 4 years now."
 ---

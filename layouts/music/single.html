@@ -19,9 +19,11 @@
             {{ end }}
         </ul>
     </div>
+    {{ with .Params.notes }}
     <div class="notes-section">
         <h3>Notes</h3>
-        <p class="album-notes">Placeholder notes about the album go here. Replace this with commentary and listening notes.</p>
+        <p class="album-notes">{{ . | markdownify }}</p>
     </div>
+    {{ end }}
 </div>
 {{ end }}
